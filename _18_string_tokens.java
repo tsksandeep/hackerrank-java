@@ -13,6 +13,7 @@ public class _18_string_tokens {
         var lineSplit = line.split("[!,?._'@ ]");
 
         var count = 0;
+
         List<String> newList = new ArrayList<String>();
 
         for (String word : lineSplit) {
