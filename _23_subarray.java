@@ -4,8 +4,6 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-// sliding window
-
 public class _23_subarray {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
@@ -34,7 +32,7 @@ public class _23_subarray {
                         count++;
                     }
                 } catch (Exception e) {
-                    continue;
+                    break;
                 }
             }
         }
