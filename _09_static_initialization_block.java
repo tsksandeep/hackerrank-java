@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class _9_static_initialization_block {
+public class _09_static_initialization_block {
     public static void main(String[] args) throws Exception {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 

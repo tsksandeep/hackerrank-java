@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class _8_end_of_file {
+public class _08_end_of_file {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         try {

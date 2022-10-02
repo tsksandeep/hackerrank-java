@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class _7_datatype {
+public class _07_datatype {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
