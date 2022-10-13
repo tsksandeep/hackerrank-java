@@ -11,8 +11,8 @@ public class _17_anagrams {
         var word1 = bufferedReader.readLine().trim();
         var word2 = bufferedReader.readLine().trim();
 
-        HashMap<String, Integer> letterFrequency1 = new HashMap<>();
-        HashMap<String, Integer> letterFrequency2 = new HashMap<>();
+        HashMap<String, Integer> letterFrequency1 = new HashMap();
+        HashMap<String, Integer> letterFrequency2 = new HashMap();
 
         for (var i = 0; i < word1.length(); i++) {
             var letter = word1.substring(i, i + 1);

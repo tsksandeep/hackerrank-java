@@ -15,10 +15,10 @@ public class _22_arraylist {
 
         var n = Integer.parseInt(bufferedReader.readLine().trim());
 
-        List<List<String>> arr = new ArrayList<List<String>>();
+        List<List<String>> arr = new ArrayList();
 
         for (var i = 0; i < n; i++) {
-            var l = new LinkedList<String>(Arrays.asList(bufferedReader.readLine().trim().split(" ")));
+            var l = new LinkedList(Arrays.asList(bufferedReader.readLine().trim().split(" ")));
 
             l.remove(0);
 

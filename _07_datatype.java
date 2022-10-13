@@ -13,7 +13,6 @@ public class _07_datatype {
                 System.out.printf("%s can be fitted in:\n", s);
             } catch (Exception e) {
                 System.out.printf("%s can't be fitted anywhere.\n", s);
-                continue;
             }
 
             try {
