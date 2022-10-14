@@ -10,7 +10,8 @@
 - if `int` we can use `==` operator, if `Integer` we can only use `.equalsTo`
 - text.substring for text slice
 - to reverse a String, use `StringBuilder(text).reverse().toString()`
-- python dict == HashMap<String, Integer> | .get() .put()
+- python dict == HashMap<String, Integer> | .get() .put() | Not thread safe | no method is syncronised | null allowed
+- HashTable<String, Integer> | .get() .put() | Thread safe | methods are syncronised | null not allowed
 - to iterate through HashMap, use `for (Map.Entry<String, String> mapElement : map.entrySet()) {}` | mapElement.getKey() and mapElement.getValue();
 - to split line with multiple characters user `[!,?._'@ ]`
 - regex compile - java.util.regex.Pattern - Pattern.compile(regexPattern)
